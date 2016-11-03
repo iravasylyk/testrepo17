@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestingBasics1]" parallel="methods">
+  <test name="SingleTestSuite1(failed)" parallel="methods">
+    <classes>
+      <class name="lqas.automation.Untitled">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testUntitled1"/>
+        </methods>
+      </class> <!-- lqas.automation.Untitled -->
+    </classes>
+  </test> <!-- SingleTestSuite1(failed) -->
+</suite> <!-- Failed suite [TestingBasics1] -->
