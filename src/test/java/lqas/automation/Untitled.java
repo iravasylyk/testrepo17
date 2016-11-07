@@ -68,7 +68,7 @@ public class Untitled {
   
   @Test
 
-  public void testUntitled2223() throws Exception {
+  public void testUntitled2223Lamaster() throws Exception {
 	  driver = new FirefoxDriver();
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     driver.get(baseUrl + "/");
