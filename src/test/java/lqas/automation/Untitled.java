@@ -1,4 +1,4 @@
-package lqas.automation;
+﻿package lqas.automation;
 
 import java.util.regex.Pattern;
 import java.io.File;
@@ -43,7 +43,7 @@ public class Untitled {
   }
 
   @Test
-  public void testUntitled1() throws Exception {
+  public void testUntitled12() throws Exception {
 	driver = new FirefoxDriver();
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	driver.get(baseUrl + "/");
@@ -111,7 +111,7 @@ public class Untitled {
   }
   
   @Test
-  public void testUntitled4() throws Exception {
+  public void testUntitled41() throws Exception {
 	  driver = new FirefoxDriver();
 	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     driver.get(baseUrl + "/");
